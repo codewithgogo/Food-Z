@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Food-Z</title>
+	
+	<!--font awesome cdn1 link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<!-- custom css file link -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<!-- header section starts -->
+
+	<header>
+		<a href="#" class="logo"><i class="fas fa-cutlery"></i>Food-Z</a>
+
+		<nav class="navbar">
+			<a href="#home">home</a>
+			<a href="#dishes">dishes</a>
+			<a href="#about">about</a>
+			<a href="#menu">menu</a>
+			<a href="#review">review</a>
+			<a href="#order">order</a>
+		</nav>
+
+		<div class="icons">
+			<i class="fa fa-bars" aria-hidden="true" id="menu-true"></i>
+			<i class="fas fa-search" id="search-icon"></i>
+			<a href="#" class="fas fa-heart"></a>
+			<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+		</div>
+		
+
+	</header>
+
+	<!-- header section ends-->
+	<!-- search form -->
+	<form action="" id="search-form">
+		
+		<input type="search" placeholder="search here..." name="" id="search-box">
+		<label for="search-box" class="fas fa-search"></label>
+		<i class="fas fa-bars" id="close"></i>
+	</form>
+
+	<!--home section start -->
+
+	<section class="home" id="home">
+
+		<div class="swiper mySwiper home-slider">
+
+			<div class="swiper-wrapper wrapper">
+
+				<div class="swiper-slide slide">
+					<div class="content">
+						<span>Our special dish</span>
+						<h3>Fried Chicken</h3>
+						<p>Tasty Fried Chicken available at suitable price in our Food-Z our fried chicken is also popular in  every area you can order it through our website or visit our restaurant.</p>
+						<a href="#" class="btn">Order Now</a>					
+					</div>
+					<div class="image">
+						<img src="Images/home-img-1.jpg">					
+					</div>
+				</div>
+
+				<div class="swiper-slide slide">
+					<div class="content">
+						<span>Our special dish</span>
+						<h3>Hot pizza</h3>
+						<p>Tasty hot pizza available at suitable price in our Food-Z our hot pizza is also popular in  every area you can order it through our website or visit our restaurant</p>
+						<a href="#" class="btn">Order Now</a>					
+					</div>
+					<div class="image">
+						<img src="Images/home-img-2.jpg">					
+					</div>
+				</div>
+
+				<div class=" swiper-slide slide">
+					<div class="content">
+						<span>Our special dish</span>
+						<h3>Spicy noodles</h3>
+						<p>Tasty Spicy noodles available at suitable price in our Food-Z our spicy noodles is also popular in  every area you can order it through our website or visit our restaurant</p>
+						<a href="#" class="btn">Order Now</a>					
+					</div>
+					<div class="image">
+						<img src="Images/home-img-3.jpg">					
+					</div>
+				</div>
+						
+			</div>
+			
+		</div>
+		
+</section>
+
+<!--home section ends -->
+
+<!--dishes section start-->
+
+<section class="dishes" id="dishes">
+
+	<h3 class="sub-heading">Our dishes</h3>
+	<h1 class="heading">Popular dishes</h1>
+
+	<div class="box-container">
+
+		<div class="box">
+			<a href="#" class="fas fa-heart"></a>
+			<a href="#" class="fas fa-eye"></a>
+			<img src="Images/dish-1.jpg">
+			<h3>Pao Bhaji</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<span>$15.66</span>
+			<a href="#" class="btn">Add to cart</a>
+		</div>
+
+		<div class="box">
+			<a href="#" class="fas fa-heart"></a>
+			<a href="#" class="fas fa-eye"></a>
+			<img src="Images/dish-2.jpg">
+			<h3>Panner Chaap</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<span>$65.66</span>
+			<a href="#" class="btn">Add to cart</a>
+		</div>
+
+		<div class="box">
+			<a href="#" class="fas fa-heart"></a>
+			<a href="#" class="fas fa-eye"></a>
+			<img src="Images/dish-3.jpg">
+			<h3>Soya Chaap</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<span>$69.66</span>
+			<a href="#" class="btn">Add to cart</a>
+		</div>
+
+		<div class="box">
+			<a href="#" class="fas fa-heart"></a>
+			<a href="#" class="fas fa-eye"></a>
+			<img src="Images/dish-4.jpg">
+			<h3>Biryani</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<span>$89.56</span>
+			<a href="#" class="btn">Add to cart</a>
+		</div>
+
+		<div class="box">
+			<a href="#" class="fas fa-heart"></a>
+			<a href="#" class="fas fa-eye"></a>
+			<img src="Images/dish-5.jpg">
+			<h3>Special Naan</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<span>$96.56</span>
+			<a href="#" class="btn">Add to cart</a>
+		</div>
+
+		<div class="box">
+			<a href="#" class="fas fa-heart"></a>
+			<a href="#" class="fas fa-eye"></a>
+			<img src="Images/dish-6.jpg">
+			<h3>Fish Cury</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+			</div>
+			<span>$98.88</span>
+			<a href="#" class="btn">Add to cart</a>
+		</div>
+
+		
+	</div>
+	
+</section>
+
+<!--dishes section ends-->
+
+<!--about section start-->
+
+<section class="about" id="about">
+
+	<h3 class="sub-heading">About Us</h3>
+	<h1 class="heading">Why Choose Us?</h1>
+
+	<div class="row">
+		<div class="imgage">
+			<img src="Images/about-img.jpg">		
+		</div>
+
+		<div class="content">
+			<h3>Best food in the Country</h3>
+			<p>The goal of this Online food website is to facilitate the customers to buy products online with ease of "Click N Buy". It's a process of implementing all the activities of the Shopping in an electronic and computerized </p>
+			<p>The goal of this Online food website is to facilitate the customers to buy products online with ease of "Click N Buy". It's a process of implementing all the activities of the Shopping in an electronic and computerized </p>
+			<div class="icons-container">
+				<div class="icons">
+					<i class="fas fa-shipping-fast"></i>
+					<span>Free delivery</span>		
+				</div>
+
+				<div class="icons">
+					<i class="fas fa-dollar-sign"></i>
+					<span>Easy Payments</span>		
+				</div>
+
+				<div class="icons">
+					<i class="fas fa-headset"></i>
+					<span>24/7 service</span>		
+				</div>		
+			</div>
+			<a href="#" class="btn">Learn more</a>
+			
+		</div>
+		
+	</div>	
+
+</section>
+
+<!--about section ends-->
+
+<!--menu section start-->
+
+<section class="menu" id="menu">
+
+	<h3 class="sub-heading">Our Menu</h3>
+	<h1 class="heading">Today's Speciality</h1>
+
+	<div class="box-container">
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-1.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Burger</h3>
+				<p>Tasty delicious burger available at common price also with some variety veg burger,non-veg burger</p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$12.65</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-2.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Pizza Veg</h3>
+				<p>Tasty delicious pizza available at common price also with some variety veg pizza,non-veg pizza</p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$52.3</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-3.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Fresh Juice</h3>
+				<p>Tasty delicious Juice available at common price also with some variety mango, papaya </p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$75.2</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-4.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Ice Cream</h3>
+				<p>Tasty delicious ice cream available at common price also with some variety chocolate,vanila </p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$89.85</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-5.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Special Lassi</h3>
+				<p>Tasty delicious lassi available at common price also with some variety badam,pista</p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$56.96</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-6.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Ras Malai</h3>
+				<p>Tasty delicious ras malai available at common price also with some variety</p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$89.65</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-7.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Tandoori Chicken</h3>
+				<p>Tasty delicious tandoori chicken available at common price also with some variety</p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$98.39</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-8.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Daal Makhni</h3>
+				<p>Tasty delicious daal makhni available at common price also with some variety </p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$58.64</span>		
+			</div>			
+		</div>
+
+
+		<div class="box">
+			<div class="image">
+				<img src="Images/menu-9.jpg">
+				<a href="#" class="fas fa-heart"></a>		
+			</div>
+			<div class="content">
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+				</div>
+				<h3>Special Pulao</h3>
+				<p>Tasty delicious pulao available at common price also with some variety</p>
+				<a href="#" class="btn">Add to cart</a>
+				<span class="price">$99.78</span>		
+			</div>			
+		</div>
+	
+	</div>
+	
+</section>
+
+<!--menu section ends-->
+
+<!--review section start-->
+
+<section class="review" id="review">
+
+	<h3 class="sub-heading">Customer's Review</h3>
+	<h1 class="heading">What they say</h1>
+
+	<div class="swiper container review-slider">
+		<div class="swiper-wrapper">
+
+			<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="Images/pic-1.jpg">
+					<div class="user-info">
+						<h3>Maria luta</h3>
+						<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					</div>
+
+					</div>
+					
+				</div>
+				<p>The best food restaurant in the country facilities of easy shopping online from anywhere and payment.Provides information about the products catagories.Customers are provided with provided with up to date information on the products available.
+				</p>		
+			</div>
+
+				<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="Images/pic-2.jpg">
+					<div class="user-info">
+						<h3>Sera myth</h3>
+						<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					</div>
+
+					</div>
+					
+				</div>
+				<p>The best food restaurant in the country facilities of easy shopping online from anywhere and payment.Provides information about the products catagories.Customers are provided with provided with up to date information on the products available.
+				</p>		
+			</div>
+
+				<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="Images/pic-3.jpg">
+					<div class="user-info">
+						<h3>Andrew wyat</h3>
+						<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					</div>
+
+					</div>
+					
+				</div>
+				<p>The best food restaurant in the country facilities of easy shopping online from anywhere and payment.Provides information about the products catagories.Customers are provided with provided with up to date information on the products available.
+				</p>		
+			</div>
+
+				<div class="swiper-slide slide">
+				<i class="fas fa-quote-right"></i>
+				<div class="user">
+					<img src="Images/pic-4.jpg">
+					<div class="user-info">
+						<h3>Robert Gave</h3>
+						<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+					</div>
+
+					</div>
+					
+				</div>
+				<p>The best food restaurant in the country facilities of easy shopping online from anywhere and payment.Provides information about the products catagories.Customers are provided with provided with up to date information on the products available.
+				</p>		
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+<!--review section ends-->
+
+<!--order section start-->
+
+<section class="order" id="order">
+
+	<h3 class="sub-heading">Order Now</h3>
+	<h1 class="heading">Free and fast</h1>
+
+	<form action="">
+		
+		<div class="inputBox">
+			<div class="input">
+				<span>Your name</span>
+				<input type="text" placeholder="enter your name">
+			</div>
+			<div class="input">
+				<span>Your number</span>
+				<input type="text" placeholder="enter your number">
+			</div>			
+		</div>
+
+		<div class="inputBox">
+			<div class="input">
+				<span>Your order</span>
+				<input type="text" placeholder="enter food name">
+			</div>
+			<div class="input">
+				<span>Additonal food</span>
+				<input type="text" placeholder="extra with food">
+			</div>			
+		</div>
+
+		<div class="inputBox">
+			<div class="input">
+				<span>How much</span>
+				<input type="number" placeholder="how many orders">
+			</div>
+			<div class="input">
+				<span>Date and Time</span>
+				<input type="datetime-local">
+			</div>			
+		</div>
+		<div class="inputBox">
+			<div class="input">
+				<span>Your Address</span>
+				<textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+			</div>
+			<div class="input">
+				<span>Your message</span>
+				<textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+			</div>			
+		</div>
+
+		<input type="submit" value="order now" class="btn">
+
+	</form>	
+
+</section>
+
+<!--order section ends-->
+
+<!--footer section start-->
+
+<section class="footer">
+
+	<div class="box-container">
+
+		<div class="box">
+		<h3>Locations</h3>
+		<a href="#">India</a>
+		<a href="#">Singapore</a>
+		<a href="#">Thailand</a>
+		<a href="#">Malasia</a>
+		<a href="#">bangkok</a>	
+	</div>
+
+	<div class="box">
+		<h3>Quick Links</h3>
+		<a href="#">Home</a>
+		<a href="#">Dishes</a>
+		<a href="#">About</a>
+		<a href="#">Menu</a>
+		<a href="#">Review</a>
+		<a href="#">Order</a>	
+	</div>
+	
+		<div class="box">
+		<h3>Contact info</h3>
+		<a href="#">+123-589-5698</a>
+		<a href="#">+111-509-5868</a>
+		<a href="#">Food-Z05@gmail.com</a>
+		<a href="#">Food-Zsworld@gmail.com</a>
+		<a href="#">Delhi, India -110053</a>		
+	</div>
+
+		<div class="box">
+		<h3>Follow Us</h3>
+		<a href="#">facebook</a>
+		<a href="#">twitter</a>
+		<a href="#">instagram</a>
+		<a href="#">pinterest</a>		
+	</div>
+
+	</div>
+
+	<div class="credit">copyright @ 2023 by <span>Food-Z</span></div>
+
+</section>
+
+
+<!--footer section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
